@@ -1,0 +1,379 @@
+---
+# title: "Contribuições Mineralógicas para a Adsorção de K em Solos Tropicais e Subtropicais"
+title: "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais"
+subtitle: "Seminário do Programa de Pós-Graduação em Ciência do Solo"
+date: "2025/11/19"
+author:
+  - name: "Gustavo Frosi"
+    id: gf
+    affiliation: 
+      - name: "Doutorando em Ciência do Solo - UFRGS"
+        city: Porto Alegre, RS
+        url: http://www.ufrgs.br/ufrgs/inicial
+incremental: true
+center-title-slide: true
+scrollable: true
+smaller: false
+output-location: slide
+overview: true
+slide-number: c
+menu: false
+auto-animate: true
+progress: false
+history: false
+format: 
+  revealjs: 
+    width: 1580  # Largura em pixels
+    height: 920  # Altura em pixels
+    margin: 0.01
+    # transition: zoom
+    # background-transition: zoom
+    # theme: serifff
+    css: estilo.css
+execute:
+  exclude: true
+editor_options: 
+  
+  chunk_output_type: console
+---
+
+## Quem adsorve o K no solo?
+<hr>
+
+:::::: columns
+::: {.column width="\"30%"}
+
+::: fragment
+A rigor, a adsorção de potássio ocorre em superfícies que apresentam carga elétrica negativa.
+:::
+
+::: fragment
+Em outras palavras, no solo pode ser matéria orgânica ou minerais.
+:::
+
+:::
+:::: {.column width="\"50%"}
+::: fragment
+![](ima/adsorcao_k.webp){.absolute top="120" left="900" width="550" style="border: 5px solid gray90; border-radius: 10px; box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);"}
+
+<div class="caixa-pequena"; style="font-size: 14px;">
+  Fonte: Bell et al., 2020
+</div>
+
+:::
+::::
+::::::
+
+::: fragment
+![](ima/matter_k.png){.absolute top="500" left="50" width="650" style="border: 5px solid gray90; border-radius: 10px; box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);"}
+
+<div class="caixa-pequenaa"; style="font-size: 14px;">
+  Fonte: Wang et al., 2016
+</div>
+
+:::
+
+## Como medir a adsorção?
+<hr>
+
+::: fragment
+Por meio de isotermas de adsorção, adiciona-se ao solo uma quantidade conhecida do nutriente e quantifica-se o que permanece na solução após o "equilíbrio"
+:::
+
+
+::: fragment
+![](ima/max_ads.jpeg){.absolute top="250" left="50" width="700"}
+:::
+
+::: fragment
+![](ima/um_ponto.jpeg){.absolute top="250" left="800" width="700"}
+:::
+
+## O que é potássio remanescente?
+<hr>
+
+<br>
+<br>
+<br>
+
+::: fragment
+Definição: 
+
+A quantidade de potássio (ou fósforo) que permanece (remanesce) em solução após a amostra de solo ser misturada com uma solução padrão de concentração conhecida de potássio (ou fósforo).
+:::
+
+## Fósforo remanescente (P-Rem) e Potássio remanescente (K-Rem)
+<hr>
+
+:::::: columns
+::: {.column width="\"30%"}
+![](ima/p_rem.png){.absolute top="120" left="50" width="650" style="border: 5px solid gray90; border-radius: 10px; box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);"}
+:::
+
+:::: {.column width="\"50%"}
+::: fragment
+Adiciona-se 60 mg L^-1^ de P ao solo e quantifica-se a concentração após 5 minutos de agitação (Alvarez et al., 2000).
+
+O reagente utilizado é KH~2~PO~4~.
+
+Na solução com 60 mg L^-1^ de P há 75 mg L^-1^ de K.
+:::
+::::
+::::::
+
+<br> <br>
+
+<!-- ::: fragment
+<center><b style="color: red;"> A quantidade de K que permanece (remanesce) após a adição da solução conhecida ao solo pode ser um indicador (ou proxy) da mineralogia do solo? </b></center>
+::: -->
+
+::: notes
+Falar do professor que me disse que não ia funcionar o K-rem
+:::
+
+
+
+## Estudo sobre potássio remanescente
+<hr>
+
+::: fragment
+![](ima/k_rem_tcc.png){.absolute top="130" left="150" width="1200"}
+:::
+
+
+## Hipótese e objetivo
+
+<hr>
+
+::: nonincremental
+-   Parte-se da hipótese que a composição mineralógica do solo determina a dinâmica de adsorção de K no solo. E que essa relação pode ser expressa pela varição/amplitude do teor de K remanescente do solo.
+
+<br>
+
+-   O estudo objetiva investigar se a composição mineral determinada por DRX e análise química e/ou a textura do solo interfere na adsorção de K medida por meio da adição de concentração conhecidade de K ao solo.
+
+:::
+
+
+## Amostra de solo e textura
+
+<hr>
+
+Um total de 54 amostras, todas da camada 0 - 20 cm
+
+![](ima/mapa_textura_dois2.jpg){.absolute top="160" left="50" width="1400"}
+
+## Mineralogia e identificação e semi-quantificação de minerais
+<hr>
+
+
+:::::: columns
+::: {.column width="55%"}
+
+::: fragment
+
+Caulinita: método da área do pico princial
+
+![](ima/DRX_para_areas2.jpg){.absolute top="190" left="50" width="800"}
+:::
+
+:::
+::: {.column width="30%"}
+::: fragment
+
+Óxidos de ferro:
+
+$Fe_{d} = Fe~DCB$
+
+$Fe_{Fh} = Fe~oxalato~de~amônio$
+
+$Fe_{Mh} = Fe~estimado~por~\chi_{LF}$
+
+$Fe_{Hm+Gt} = Fe_{d}- (Fe_{Fh}+Fe_{Mh})$
+
+$Fe_{Hm} = \frac{(1.59*Fe_{Hm+Gt})}{(\frac{1.43}{(\frac{Hm}{(Hm+Gt)})})-1.43 + 1.59}$
+
+$Fe_{Gt} = Fe_{d}- (Fe_{Hm} +Fe_{Fh}+Fe_{Mh})$
+
+:::
+:::
+:::::
+
+## Mineralogia e identificação e semi-quantificação de minerais
+<hr>
+
+Minerais 2:1:
+
+::: fragment
+Agrupamento de solos com base na interpretação do DRX
+
+Presença ou ausência do mineral no DRX de lâminas orientadas.
+
+Principalmente em lâminas com MgCl~2~
+:::
+
+::: fragment
+![](ima/drx_tipo.png){.absolute top="120" left="50" width="1150"}
+:::
+
+
+## Existe a variável K-Rem?
+<hr>
+
+::: fragment
+![](ima/k_rem_distribuicao.png){.absolute top="190" left="50" width="710"}
+:::
+
+::: fragment
+![](ima/k_rem_tempo.jpeg){.absolute top="190" left="780" width="750"}
+:::
+
+## Influência da mineralogia
+<hr>
+
+Adsorção: **17** (-36 mg L^-1^), **43** (-32 mg L^-1^), **26** (-29 mg L^-1^), **53** (-28 mg L^-1^) e **15** (-25 mg L^-1^).
+
+Dessorção ou menor adsorção:  **44** (+14 mg L^-1^), **50** (+8 mg L^-1^), **52** (+2 mg L^-1^) e **1** (-1 mg L^-1^).
+
+
+::: fragment
+![](ima/drx_2_1ADS.jpeg){.absolute top="280" left="100" width="1350"}
+:::
+
+## Relação do K-Rem com Mineralogia do solo
+<hr>
+
+Caulinita
+
+::: fragment
+![](ima/K_rem_caulinita.jpeg){.absolute top="190" left="50" width="680"}
+:::
+
+::: fragment
+![](ima/K_rem_c_size.jpeg){.absolute top="190" left="850" width="680"}
+:::
+
+## Relação do K-Rem com Mineralogia do solo
+<hr>
+
+Óxidos de ferro
+
+::: fragment
+![](ima/K_rem_oxidos.jpeg){.absolute top="190" left="150" width="1110"}
+:::
+
+
+## Relação do K-Rem com Mineralogia do solo
+<hr>
+
+É Ferrihidrita ou área superfícial específica?
+
+::: fragment
+![](ima/corela.jpg){.absolute top="190" left="50" width="400"}
+:::
+
+::: fragment
+![](ima/K_rem_parcial.jpeg){.absolute top="190" left="540" width="900"}
+:::
+
+
+## Relação do K-Rem com Mineralogia do solo
+
+<hr>
+
+Ferrihidrita e CTC
+
+![](ima/K_rem_ctc_fery.jpeg){.absolute top="190" left="50" width="900"}
+
+
+## Relação do K-Rem com Mineralogia do solo
+
+<hr>
+
+$Fe_{o}$ aumenta o K trocável, mas ilita o não trocável!
+
+![](ima/sem_k.png){.absolute top="190" left="50" width="700"}
+
+::: fragment
+![](ima/sem2.webp){.absolute top="270" left="800" width="700"}
+:::
+
+<div class="caixa-pequena"; style="font-size: 14px;">
+  Fonte: Chen et al., 2023
+</div>
+
+## Relação do K-Rem com Mineralogia do solo
+
+<hr>
+
+Minerais 2:1
+
+![](ima/K_rem_argila.jpeg){.absolute top="150" left="350" width="950"}
+
+## Relação do K-Rem com pH e K disponível
+
+<hr>
+
+![](ima/K_rem_ph.jpeg){.absolute top="150" left="350" width="950"}
+
+## Considerações
+
+<hr>
+
+A mineralogia do solo está relacionada com a dinâmica adsortiva e dessortiva de K.
+
+O K remanescente apresentou ampla variação entre as amostras, devido a mineralogia dominante da fração argila e a textura de cada solo.
+
+Como por óbvio... a mineralogia 2:1 é a responsável pela maior adssorção.
+
+-   O que é mais importante: Adsorção ou dessorção de K?
+
+
+## Agradecimentos
+
+<hr>
+
+![](ima/logo%20melhorr.png){.absolute top="120" left="100" width="370"}
+
+![](ima/Logo%20PPG%20Solos%20-%20Vertical.png){.absolute top="120" left="600" width="250"}
+
+![](ima/download.png){.absolute top="250" left="1000" width="300"}
+
+
+## 
+
+::: {style="position: absolute; top: 350px; width: 95%; text-align: center;"}
+<h2>Obrigado pela atenção!</h2>
+:::
+
+## Informação de contato
+
+<hr>
+
+::::: columns
+::: {.column width="60%" style="text-align: left;"}
+<br> <br> <br>
+
+Email: [gustavofrosi\@hotmail.com](https://criarmeulink.com.br/u/1708541092)
+
+Site: [gustavofrosi.com.br](https://gustavofrosi.com.br/)
+:::
+
+::: {.column width="40%" style="text-align: right;"}
+```{r}
+#| fig-width: 5
+#| fig-height: 5
+#| fig-align: center
+#| fig-caption: "Apresentação disponível no QR code"
+
+library(qrcode)
+
+code <- qr_code(x = "https://gustavofrosi.com.br/")
+# code <- qr_code(x = "https://gugaf.quarto.pub/gramacien/#/title-slide")
+
+plot(code)
+```
+:::
+:::::
+
+<hr>

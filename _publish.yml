@@ -1,0 +1,20 @@
+-
+    source: apresentação.qmd
+-
+    resources:
+        - estilo.css
+        - ima/fundo_2.png
+        - ima/fundo_1.png
+    quarto-pub:
+        -
+            id: 042412cd-7c99-4211-ac73-01e73ffca4e3
+            url: https://gugaf.quarto.pub/fertilización-potásica-en-suelos-tropicales-y-subtropicales-mediante-parámetros-químico-mineralógicos
+        -
+            id: c93ca399-42bc-4bdd-96ee-25ffe8d52b5e
+            url: https://gugaf.quarto.pub/k_rem
+-
+    source: apre.qmd
+    quarto-pub:
+        -
+            id: 136dba21-cef8-41e9-b989-38da87e9804d
+            url: https://gugaf.quarto.pub/kr

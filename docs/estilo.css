@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..700&display=swap'); /* Importa a fonte Roboto Bold */
+
+.reveal {
+  width: 100vw;  /* Ocupa toda a largura da viewport */
+  height: 100vh; /* Ocupa toda a altura da viewport */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  font-family: 'M PLUS Code Latin', serif;
+}
+
+.reveal .slides > section:not(.title-slide) {
+  background: #fff;
+  margin: auto;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 01); /* Borda sombreada */
+  border-radius: 0px; /* Bordas arredondadas para um efeito mais suave */
+  box-sizing: border-box;  /* Inclui o padding no cálculo da largura/altura */
+  font-family: 'M PLUS Code Latin', serif;
+  background-image: url(ima/logoppg.svg);
+  background-repeat: no-repeat;
+  background-size: calc(15% - 40px);
+  background-position: 1390px bottom;
+}
+
+.reveal section {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  box-sizing: border-box;  /* Inclui o padding no cálculo da largura/altura */
+}
+
+/* Garante que os títulos e o texto dentro dos slides também usem a mesma fonte */
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6,
+.reveal p, .reveal ul, .reveal ol, .reveal li {
+  font-family: 'M PLUS Code Latin', serif;
+  padding-right: 100px;
+  padding-top: 20px;
+
+}
+
+.reveal p{
+    font-size: 35px;
+}
+
+.reveal h2 {
+  padding-right: 10px;
+  padding-top: 10px;
+  font-size: 45px !important;
+}
+
+
+#title-slide {
+  background: linear-gradient(to right, rgba(54 , 59, 85, 0.9) , #fff 30%);
+  background-image: url(ima/teste_3.png),  url(ima/logoppg.svg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: calc(100% - 40px), calc(15% - 40px);
+  background-position: -1050px center, 1390px bottom;
+  text-align: left;
+  padding-left: 525px;
+  color: #042940;
+
+  .title {
+  padding-right: 10px;
+  padding-top: 150px;
+  font-size: 50px !important;
+  font-weight: bold;
+  color: #042940;
+
+}
+
+  .subtitle {
+  padding-right: 10px;
+  padding-top: 50px;
+  font-size: 45px !important;
+}
+
+  .date {
+    color: #042940;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-left: 0px;
+  }
+
+  .quarto-title-affiliation {
+    font-size: 33px;
+    font-weight: regular;
+    padding-top: 10px;
+
+}
+
+  .quarto-title-authors {
+    justify-content: left;
+    font-weight: bold;
+    font-size: 43px;
+    padding-top: 130px;
+    padding-left: 0px;
+
+
+    .quarto-title-author {
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+    }
+  }
+}
+
+.custom-title {
+  text-align: justify;
+  font-size: 30px;
+  display: flex;
+  margin-top: 300px;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Faz o container ocupar toda a altura da página */
+  text-align: center; /* Centraliza o texto dentro */
+  flex-direction: column; /* Alinha os itens na vertical */
+}
+
+.caixa-pequena {
+  position: absolute;
+  bottom: 50px;
+  left: 1250px;
+  width: 300px;              /* controla largura */
+  height: 110px; /* Faz o container ocupar toda a altura da página */
+  text-align: center;
+  display: flex;
+  margin-top: 0px;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center; /* Centraliza o texto dentro */
+  padding: 0; /* remove o espaço interno */
+  margin: 0;  /* opcional: remove espaço externo */
+  border-radius: 1px;
+  background-color: transparent; /* cor de fundo */
+  border: white;  /* borda de 2px, cor azul escuro */
+}
+
+.caixa-pequenaa {
+  position: absolute;
+  bottom: 90px;
+  left: 450px;
+  width: 300px;              /* controla largura */
+  height: 110px; /* Faz o container ocupar toda a altura da página */
+  text-align: center;
+  display: flex;
+  margin-top: 0px;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center; /* Centraliza o texto dentro */
+  padding: 0; /* remove o espaço interno */
+  margin: 0;  /* opcional: remove espaço externo */
+  border-radius: 1px;
+  background-color: transparent; /* cor de fundo */
+  border: white;  /* borda de 2px, cor azul escuro */
+}
+
+
+
+.caixa-pequena2 {
+  position: absolute;
+  top: 145px;
+  left: 50px;
+  width: 530px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 1px;
+  background-color: rgba(255, 0, 0, 0.2);;
+  border: 5px solid red;
+}
+
+.caixa-pequena3 {
+  position: absolute;
+  top: 345px;
+  left: 75px;
+  width: 670px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 1px;
+  background-color: rgba(50, 205, 50, 0.2);;
+  border: 5px solid green;
+}
+.reveal .footer > * {
+	position: absolute;
+	bottom: 20px;
+  left: 1700px;
+  width: 300px;              /* controla largura */
+	color: black;
+	margin: px300;  /* opcional: remove espaço externo */
+  border-radius: 0px;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+
+
+.center-title {
+  text-align: center;
+   margin-top: 20%;
+}
+

@@ -1,0 +1,7 @@
+variância não pode ser negativa!
+
+quando se aumenta o número de amostras se aproximara do verdadeiro valor do parâmetro! (lei dos grandes números)
+
+nunca afirmamos causalidade!
+
+quando faz a média de vários experimentos, a média tende a ser a média verdadeira e a distribuição é uma normal! (teorema central do limite)
