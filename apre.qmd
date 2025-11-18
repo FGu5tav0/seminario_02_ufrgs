@@ -38,48 +38,50 @@ editor_options:
 ---
 
 ## Quem adsorve o K no solo?
+
 <hr>
 
-:::::: columns
-::: {.column width="\"30%"}
-
+:::::::: columns
+::::: {.column width="\"30%"}
 ::: fragment
 A rigor, a adsorção de potássio ocorre em superfícies que apresentam carga elétrica negativa.
 :::
 
 ::: fragment
-Em outras palavras, no solo pode ser matéria orgânica ou minerais.
+Em outras palavras, no solo pode ser na matéria orgânica ou minerais.
 :::
+:::::
 
-:::
 :::: {.column width="\"50%"}
 ::: fragment
 ![](ima/adsorcao_k.webp){.absolute top="120" left="900" width="550" style="border: 5px solid gray90; border-radius: 10px; box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);"}
 
+```{=html}
 <div class="caixa-pequena"; style="font-size: 14px;">
   Fonte: Bell et al., 2020
 </div>
-
+```
 :::
 ::::
-::::::
+::::::::
 
 ::: fragment
 ![](ima/matter_k.png){.absolute top="500" left="50" width="650" style="border: 5px solid gray90; border-radius: 10px; box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);"}
 
+```{=html}
 <div class="caixa-pequenaa"; style="font-size: 14px;">
   Fonte: Wang et al., 2016
 </div>
-
+```
 :::
 
 ## Como medir a adsorção?
+
 <hr>
 
 ::: fragment
 Por meio de isotermas de adsorção, adiciona-se ao solo uma quantidade conhecida do nutriente e quantifica-se o que permanece na solução após o "equilíbrio"
 :::
-
 
 ::: fragment
 ![](ima/max_ads.jpeg){.absolute top="250" left="50" width="700"}
@@ -90,19 +92,19 @@ Por meio de isotermas de adsorção, adiciona-se ao solo uma quantidade conhecid
 :::
 
 ## O que é potássio remanescente?
+
 <hr>
 
-<br>
-<br>
-<br>
+<br> <br> <br>
 
 ::: fragment
-Definição: 
+Definição:
 
 A quantidade de potássio (ou fósforo) que permanece (remanesce) em solução após a amostra de solo ser misturada com uma solução padrão de concentração conhecida de potássio (ou fósforo).
 :::
 
 ## Fósforo remanescente (P-Rem) e Potássio remanescente (K-Rem)
+
 <hr>
 
 :::::: columns
@@ -112,7 +114,7 @@ A quantidade de potássio (ou fósforo) que permanece (remanesce) em solução a
 
 :::: {.column width="\"50%"}
 ::: fragment
-Adiciona-se 60 mg L^-1^ de P ao solo e quantifica-se a concentração após 5 minutos de agitação (Alvarez et al., 2000).
+Adiciona-se 60 mg L^-1^ de P ao solo e quantifica-se a concentração após 5 minutos de agitação (Alvarez et al., 2000) (teste com 80 minutos).
 
 O reagente utilizado é KH~2~PO~4~.
 
@@ -123,9 +125,11 @@ Na solução com 60 mg L^-1^ de P há 75 mg L^-1^ de K.
 
 <br> <br>
 
+```{=html}
 <!-- ::: fragment
 <center><b style="color: red;"> A quantidade de K que permanece (remanesce) após a adição da solução conhecida ao solo pode ser um indicador (ou proxy) da mineralogia do solo? </b></center>
 ::: -->
+```
 
 ::: notes
 Falar do professor que me disse que não ia funcionar o K-rem
@@ -134,26 +138,24 @@ Falar do professor que me disse que não ia funcionar o K-rem
 
 
 ## Estudo sobre potássio remanescente
+
 <hr>
 
 ::: fragment
 ![](ima/k_rem_tcc.png){.absolute top="130" left="150" width="1200"}
 :::
 
-
 ## Hipótese e objetivo
 
 <hr>
 
 ::: nonincremental
--   Parte-se da hipótese que a composição mineralógica do solo determina a dinâmica de adsorção de K no solo. E que essa relação pode ser expressa pela varição/amplitude do teor de K remanescente do solo.
+-   Parte-se da hipótese que a composição mineralógica do solo determina a dinâmica de adsorção de K no solo. E que essa relação pode ser expressa pela variação/amplitude do teor de K remanescente do solo.
 
 <br>
 
--   O estudo objetiva investigar se a composição mineral determinada por DRX e análise química e/ou a textura do solo interfere na adsorção de K medida por meio da adição de concentração conhecidade de K ao solo.
-
+-   O estudo objetiva investigar se a composição mineral determinada por DRX e análise química e/ou a textura do solo, interfere na adsorção de K (K remanescente).
 :::
-
 
 ## Amostra de solo e textura
 
@@ -163,22 +165,50 @@ Um total de 54 amostras, todas da camada 0 - 20 cm
 
 ![](ima/mapa_textura_dois2.jpg){.absolute top="160" left="50" width="1400"}
 
-## Mineralogia e identificação e semi-quantificação de minerais
+## Potássio remanescente (K-Rem) - Método de extração
 <hr>
 
 
-:::::: columns
-::: {.column width="55%"}
+![](ima/krem_esquema.png){.absolute top="130" left="150" width="1200"}
 
+
+
+## Mineralogia - identificação e semi-quantificação de minerais
+
+<hr>
+
+::::::: columns
+:::: {.column width="55%"}
 ::: fragment
 
-Caulinita: método da área do pico princial
+Caulinita: método da área do pico principal
 
 ![](ima/DRX_para_areas2.jpg){.absolute top="190" left="50" width="800"}
-:::
 
 :::
-::: {.column width="30%"}
+::::
+
+:::: {.column width="45%"}
+::: fragment
+
+Tamanho de cristalito (diâmetro médio das partículas):
+
+Equação de Scherrer
+
+$$\beta = \frac{kD}{\lambda~cos\theta}$$
+
+Onde, $\beta$ é a largura a meia altura do pico de difração, $D$ é o tamanho de cristalito na direção perpendicular aos planos da rede, $\theta$ é o ângulo de Bragg para a reflexão em destaque e $k$ é um fator numérico frequentemente tratado como sendo um fator de forma dos cristalitos que compõem a amostra.
+
+:::
+::::
+:::::::
+
+## Mineralogia - identificação e semi-quantificação de minerais
+
+<hr>
+
+::::::: columns
+:::: {.column width="50%"}
 ::: fragment
 
 Óxidos de ferro:
@@ -196,10 +226,26 @@ $Fe_{Hm} = \frac{(1.59*Fe_{Hm+Gt})}{(\frac{1.43}{(\frac{Hm}{(Hm+Gt)})})-1.43 + 1
 $Fe_{Gt} = Fe_{d}- (Fe_{Hm} +Fe_{Fh}+Fe_{Mh})$
 
 :::
-:::
-:::::
+::::
 
-## Mineralogia e identificação e semi-quantificação de minerais
+:::: {.column width="50%"}
+::: fragment
+Alocação:
+
+$Fh = Fe_{5}O_{8}H$
+
+$Hm = Fe_{2}O_{3}$
+
+$Gt = FeO(OH)$
+
+$Mh = Fe_{3}O_{4}$
+
+:::
+::::
+:::::::
+
+## Mineralogia - identificação e semi-quantificação de minerais
+
 <hr>
 
 Minerais 2:1:
@@ -216,8 +262,8 @@ Principalmente em lâminas com MgCl~2~
 ![](ima/drx_tipo.png){.absolute top="120" left="50" width="1150"}
 :::
 
-
 ## Existe a variável K-Rem?
+
 <hr>
 
 ::: fragment
@@ -229,18 +275,19 @@ Principalmente em lâminas com MgCl~2~
 :::
 
 ## Influência da mineralogia
+
 <hr>
 
 Adsorção: **17** (-36 mg L^-1^), **43** (-32 mg L^-1^), **26** (-29 mg L^-1^), **53** (-28 mg L^-1^) e **15** (-25 mg L^-1^).
 
-Dessorção ou menor adsorção:  **44** (+14 mg L^-1^), **50** (+8 mg L^-1^), **52** (+2 mg L^-1^) e **1** (-1 mg L^-1^).
-
+Dessorção ou menor adsorção: **44** (+14 mg L^-1^), **50** (+8 mg L^-1^), **52** (+2 mg L^-1^) e **1** (-1 mg L^-1^).
 
 ::: fragment
 ![](ima/drx_2_1ADS.jpeg){.absolute top="280" left="100" width="1350"}
 :::
 
 ## Relação do K-Rem com Mineralogia do solo
+
 <hr>
 
 Caulinita
@@ -254,6 +301,7 @@ Caulinita
 :::
 
 ## Relação do K-Rem com Mineralogia do solo
+
 <hr>
 
 Óxidos de ferro
@@ -262,8 +310,8 @@ Caulinita
 ![](ima/K_rem_oxidos.jpeg){.absolute top="190" left="150" width="1110"}
 :::
 
-
 ## Relação do K-Rem com Mineralogia do solo
+
 <hr>
 
 É Ferrihidrita ou área superfícial específica?
@@ -276,7 +324,6 @@ Caulinita
 ![](ima/K_rem_parcial.jpeg){.absolute top="190" left="540" width="900"}
 :::
 
-
 ## Relação do K-Rem com Mineralogia do solo
 
 <hr>
@@ -284,7 +331,6 @@ Caulinita
 Ferrihidrita e CTC
 
 ![](ima/K_rem_ctc_fery.jpeg){.absolute top="190" left="50" width="900"}
-
 
 ## Relação do K-Rem com Mineralogia do solo
 
@@ -298,9 +344,11 @@ $Fe_{o}$ aumenta o K trocável, mas ilita o não trocável!
 ![](ima/sem2.webp){.absolute top="270" left="800" width="700"}
 :::
 
+```{=html}
 <div class="caixa-pequena"; style="font-size: 14px;">
   Fonte: Chen et al., 2023
 </div>
+```
 
 ## Relação do K-Rem com Mineralogia do solo
 
@@ -309,6 +357,14 @@ $Fe_{o}$ aumenta o K trocável, mas ilita o não trocável!
 Minerais 2:1
 
 ![](ima/K_rem_argila.jpeg){.absolute top="150" left="350" width="950"}
+
+## Relação do K-Rem com a Atividade da argila
+
+<hr>
+
+::: fragment
+![](ima/K_rem_atv_argila.jpeg){.absolute top="150" left="350" width="950"}
+:::
 
 ## Relação do K-Rem com pH e K disponível
 
@@ -320,14 +376,79 @@ Minerais 2:1
 
 <hr>
 
-A mineralogia do solo está relacionada com a dinâmica adsortiva e dessortiva de K.
+- A mineralogia do solo está relacionada com a dinâmica adsortiva e dessortiva de K.
 
-O K remanescente apresentou ampla variação entre as amostras, devido a mineralogia dominante da fração argila e a textura de cada solo.
+- Como por óbvio... a mineralogia 2:1 é a responsável pela maior adsorção.
 
-Como por óbvio... a mineralogia 2:1 é a responsável pela maior adssorção.
+- O K remanescente apresentou ampla variação entre as amostras, devido a mineralogia dominante da fração argila e a textura de cada solo.
 
 -   O que é mais importante: Adsorção ou dessorção de K?
 
+- A grande limitação do estudo está na quantidade de solos com minerais 2:1 e no viés de uso do solo!
+
+
+## ODSs - 2
+<hr>
+
+::::::: columns
+:::: {.column width="70%"}
+
+<br>
+<br>
+<br>
+
+É um dos nutrientes fundamentais para o funcionamento homeostático do corpo humano (HE; MACGREGOR, 2008). Nas últimas décadas se observou uma redução no consumo do elemento em diversas partes do mundo (BOLTON et al., 2019; DONFRANCESCO et al., 2021; IDRISSI et al., 2023; OKUDA et al., 2020). Segundo Reddin et al. (2023) ao avaliar o consumo de K em 52 países observou que apenas 14% da população faz o consumo de quantidade recomendada.
+
+::::
+
+:::: {.column width="50%"}
+
+![](ima/ods/SDG-2.svg){.absolute top="300" left="1150" width="300"}
+
+::::
+:::::::
+
+## ODSs - 12
+<hr>
+
+::::::: columns
+:::: {.column width="70%"}
+
+<br>
+<br>
+<br>
+
+Do ponto de vista agrícola, a eficiência da adubação potássica em nível mundial não passa de 19% em culturas de cereais (DHILLON et al., 2019), enquanto no Brasil se aproxima de 66% (SIPERT et al.,2020). Além disso, segundo Rawashdeh (2020), o declínio das reservas deve começar por volta de 2057.
+
+::::
+
+:::: {.column width="50%"}
+
+![](ima/ods/SDG-12.svg){.absolute top="300" left="1150" width="300"}
+
+::::
+:::::::
+
+## ODSs - 13
+<hr>
+
+::::::: columns
+:::: {.column width="70%"}
+
+<br>
+<br>
+<br>
+
+O sistema alimentar global contribui com aproximadamente 21–37% das emissões anuais de gases de efeito estufa (MBOW et al., 2019). A maior parte do CO₂ emitido provém do uso excessivo de fertilizantes (LAWRENCE et al., 2021). No entanto, a adoção de novas tecnologias e métodos agrícolas tem grande potencial para reduzir essas emissões (NSABIYEZE, et al., 2024).
+
+::::
+
+:::: {.column width="50%"}
+
+![](ima/ods/SDG-13.svg){.absolute top="300" left="1150" width="300"}
+
+::::
+:::::::
 
 ## Agradecimentos
 
@@ -340,26 +461,69 @@ Como por óbvio... a mineralogia 2:1 é a responsável pela maior adssorção.
 ![](ima/download.png){.absolute top="250" left="1000" width="300"}
 
 
-## 
+##  {background-color="#ffffff"}
 
-::: {style="position: absolute; top: 350px; width: 95%; text-align: center;"}
+::: {style="position: absolute; top: 50px; width: 95%; text-align: center;"}
 <h2>Obrigado pela atenção!</h2>
 :::
 
-## Informação de contato
 
-<hr>
+<style>
+/* fundo com gradiente */
+.slide-bg {
+  background: linear-gradient(to right, #bd9b76 0%, #f5f5f5 60%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* caixa transparente */
+.info-box {
+  background: #e9f4f4;
+  padding: 20px 25px;
+  border-radius: 10px;
+  width: 340px;
+  font-size: 1.2rem;
+  color: #bd9b76;
+}
+
+/* links */
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  font-size: 1.1rem;
+}
+.contact-row span {
+  color: #bd9b76;
+}
+
+/* hexágonos */
+.hex {
+  position: absolute;
+  clip-path: polygon(
+    25% 5%, 75% 5%, 100% 50%,
+    75% 95%, 25% 95%, 0% 50%
+  );
+  opacity: 0.9;
+}
+</style>
+
+<div class="slide-bg"></div>
+
 
 ::::: columns
-::: {.column width="60%" style="text-align: left;"}
-<br> <br> <br>
+::: {.column width="70%" style="text-align: center;"}
 
-Email: [gustavofrosi\@hotmail.com](https://criarmeulink.com.br/u/1708541092)
+<br>
+<br>
 
-Site: [gustavofrosi.com.br](https://gustavofrosi.com.br/)
-:::
+<b>Apresentação:</b>
 
-::: {.column width="40%" style="text-align: right;"}
 ```{r}
 #| fig-width: 5
 #| fig-height: 5
@@ -368,12 +532,37 @@ Site: [gustavofrosi.com.br](https://gustavofrosi.com.br/)
 
 library(qrcode)
 
-code <- qr_code(x = "https://gustavofrosi.com.br/")
+code <- qr_code(x = "https://fgu5tav0.github.io/seminario_02_ufrgs/apre.html#/title-slide")
 # code <- qr_code(x = "https://gugaf.quarto.pub/gramacien/#/title-slide")
 
 plot(code)
 ```
+
+
+
+:::
+
+::: {.column width="40%" style="text-align: center;"}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+{{< fa brands github size=normalsize >}} <b>FGu5tav0</b>
+
+{{< fa brands mastodon size=normalsize >}} <b>gugafrosi</b>
+
+{{< fa envelope size=normalsize >}} <b>gustavofrosi@hotmail.com</b>
+
+{{< fa laptop size=normalsize >}} <b>gustavofrosi.com.br</b>
+
+
 :::
 :::::
 
-<hr>
+
