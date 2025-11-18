@@ -4,7 +4,7 @@
     "href": "apre.html#quem-adsorve-o-k-no-solo",
     "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
     "section": "Quem adsorve o K no solo?",
-    "text": "Quem adsorve o K no solo?\n\n\n\n\nA rigor, a adsorção de potássio ocorre em superfícies que apresentam carga elétrica negativa.\n\n\nEm outras palavras, no solo pode ser matéria orgânica ou minerais.\n\n\n\n\n\n  Fonte: Bell et al., 2020\n\n\n\n\n\n\n  Fonte: Wang et al., 2016"
+    "text": "Quem adsorve o K no solo?\n\n\n\n\nA rigor, a adsorção de potássio ocorre em superfícies que apresentam carga elétrica negativa.\n\n\nEm outras palavras, no solo pode ser na matéria orgânica ou minerais.\n\n\n\n\n\n  Fonte: Bell et al., 2020\n\n\n\n\n\n\n  Fonte: Wang et al., 2016"
   },
   {
     "objectID": "apre.html#como-medir-a-adsorção",
@@ -25,7 +25,7 @@
     "href": "apre.html#fósforo-remanescente-p-rem-e-potássio-remanescente-k-rem",
     "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
     "section": "Fósforo remanescente (P-Rem) e Potássio remanescente (K-Rem)",
-    "text": "Fósforo remanescente (P-Rem) e Potássio remanescente (K-Rem)\n\n\n\n\n\n\nAdiciona-se 60 mg L-1 de P ao solo e quantifica-se a concentração após 5 minutos de agitação (Alvarez et al., 2000).\nO reagente utilizado é KH2PO4.\nNa solução com 60 mg L-1 de P há 75 mg L-1 de K.\n\n\n \n\n\nFalar do professor que me disse que não ia funcionar o K-rem"
+    "text": "Fósforo remanescente (P-Rem) e Potássio remanescente (K-Rem)\n\n\n\n\n\n\nAdiciona-se 60 mg L-1 de P ao solo e quantifica-se a concentração após 5 minutos de agitação (Alvarez et al., 2000) (teste com 80 minutos).\nO reagente utilizado é KH2PO4.\nNa solução com 60 mg L-1 de P há 75 mg L-1 de K.\n\n\n \n\n\nFalar do professor que me disse que não ia funcionar o K-rem"
   },
   {
     "objectID": "apre.html#estudo-sobre-potássio-remanescente",
@@ -39,7 +39,7 @@
     "href": "apre.html#hipótese-e-objetivo",
     "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
     "section": "Hipótese e objetivo",
-    "text": "Hipótese e objetivo\n\n\nParte-se da hipótese que a composição mineralógica do solo determina a dinâmica de adsorção de K no solo. E que essa relação pode ser expressa pela varição/amplitude do teor de K remanescente do solo.\n\n\n\nO estudo objetiva investigar se a composição mineral determinada por DRX e análise química e/ou a textura do solo interfere na adsorção de K medida por meio da adição de concentração conhecidade de K ao solo."
+    "text": "Hipótese e objetivo\n\n\nParte-se da hipótese que a composição mineralógica do solo determina a dinâmica de adsorção de K no solo. E que essa relação pode ser expressa pela variação/amplitude do teor de K remanescente do solo.\n\n\n\nO estudo objetiva investigar se a composição mineral determinada por DRX e análise química e/ou a textura do solo, interfere na adsorção de K (K remanescente)."
   },
   {
     "objectID": "apre.html#amostra-de-solo-e-textura",
@@ -49,18 +49,32 @@
     "text": "Amostra de solo e textura\n\nUm total de 54 amostras, todas da camada 0 - 20 cm"
   },
   {
-    "objectID": "apre.html#mineralogia-e-identificação-e-semi-quantificação-de-minerais",
-    "href": "apre.html#mineralogia-e-identificação-e-semi-quantificação-de-minerais",
+    "objectID": "apre.html#potássio-remanescente-k-rem---método-de-extração",
+    "href": "apre.html#potássio-remanescente-k-rem---método-de-extração",
     "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
-    "section": "Mineralogia e identificação e semi-quantificação de minerais",
-    "text": "Mineralogia e identificação e semi-quantificação de minerais\n\n\n\n\nCaulinita: método da área do pico princial\n\n\n\n\nÓxidos de ferro:\n\\(Fe_{d} = Fe~DCB\\)\n\\(Fe_{Fh} = Fe~oxalato~de~amônio\\)\n\\(Fe_{Mh} = Fe~estimado~por~\\chi_{LF}\\)\n\\(Fe_{Hm+Gt} = Fe_{d}- (Fe_{Fh}+Fe_{Mh})\\)\n\\(Fe_{Hm} = \\frac{(1.59*Fe_{Hm+Gt})}{(\\frac{1.43}{(\\frac{Hm}{(Hm+Gt)})})-1.43 + 1.59}\\)\n\\(Fe_{Gt} = Fe_{d}- (Fe_{Hm} +Fe_{Fh}+Fe_{Mh})\\)"
+    "section": "Potássio remanescente (K-Rem) - Método de extração",
+    "text": "Potássio remanescente (K-Rem) - Método de extração"
   },
   {
-    "objectID": "apre.html#mineralogia-e-identificação-e-semi-quantificação-de-minerais-1",
-    "href": "apre.html#mineralogia-e-identificação-e-semi-quantificação-de-minerais-1",
+    "objectID": "apre.html#mineralogia---identificação-e-semi-quantificação-de-minerais",
+    "href": "apre.html#mineralogia---identificação-e-semi-quantificação-de-minerais",
     "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
-    "section": "Mineralogia e identificação e semi-quantificação de minerais",
-    "text": "Mineralogia e identificação e semi-quantificação de minerais\n\nMinerais 2:1:\n\nAgrupamento de solos com base na interpretação do DRX\nPresença ou ausência do mineral no DRX de lâminas orientadas.\nPrincipalmente em lâminas com MgCl2"
+    "section": "Mineralogia - identificação e semi-quantificação de minerais",
+    "text": "Mineralogia - identificação e semi-quantificação de minerais\n\n\n\n\nCaulinita: método da área do pico principal\n\n\n\n\nTamanho de cristalito (diâmetro médio das partículas):\nEquação de Scherrer\n\\[\\beta = \\frac{kD}{\\lambda~cos\\theta}\\]\nOnde, \\(\\beta\\) é a largura a meia altura do pico de difração, \\(D\\) é o tamanho de cristalito na direção perpendicular aos planos da rede, \\(\\theta\\) é o ângulo de Bragg para a reflexão em destaque e \\(k\\) é um fator numérico frequentemente tratado como sendo um fator de forma dos cristalitos que compõem a amostra."
+  },
+  {
+    "objectID": "apre.html#mineralogia---identificação-e-semi-quantificação-de-minerais-1",
+    "href": "apre.html#mineralogia---identificação-e-semi-quantificação-de-minerais-1",
+    "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
+    "section": "Mineralogia - identificação e semi-quantificação de minerais",
+    "text": "Mineralogia - identificação e semi-quantificação de minerais\n\n\n\n\nÓxidos de ferro:\n\\(Fe_{d} = Fe~DCB\\)\n\\(Fe_{Fh} = Fe~oxalato~de~amônio\\)\n\\(Fe_{Mh} = Fe~estimado~por~\\chi_{LF}\\)\n\\(Fe_{Hm+Gt} = Fe_{d}- (Fe_{Fh}+Fe_{Mh})\\)\n\\(Fe_{Hm} = \\frac{(1.59*Fe_{Hm+Gt})}{(\\frac{1.43}{(\\frac{Hm}{(Hm+Gt)})})-1.43 + 1.59}\\)\n\\(Fe_{Gt} = Fe_{d}- (Fe_{Hm} +Fe_{Fh}+Fe_{Mh})\\)\n\n\n\nAlocação:\n\\(Fh = Fe_{5}O_{8}H\\)\n\\(Hm = Fe_{2}O_{3}\\)\n\\(Gt = FeO(OH)\\)\n\\(Mh = Fe_{3}O_{4}\\)"
+  },
+  {
+    "objectID": "apre.html#mineralogia---identificação-e-semi-quantificação-de-minerais-2",
+    "href": "apre.html#mineralogia---identificação-e-semi-quantificação-de-minerais-2",
+    "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
+    "section": "Mineralogia - identificação e semi-quantificação de minerais",
+    "text": "Mineralogia - identificação e semi-quantificação de minerais\n\nMinerais 2:1:\n\nAgrupamento de solos com base na interpretação do DRX\nPresença ou ausência do mineral no DRX de lâminas orientadas.\nPrincipalmente em lâminas com MgCl2"
   },
   {
     "objectID": "apre.html#existe-a-variável-k-rem",
@@ -119,6 +133,13 @@
     "text": "Relação do K-Rem com Mineralogia do solo\n\nMinerais 2:1"
   },
   {
+    "objectID": "apre.html#relação-do-k-rem-com-a-atividade-da-argila",
+    "href": "apre.html#relação-do-k-rem-com-a-atividade-da-argila",
+    "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
+    "section": "Relação do K-Rem com a Atividade da argila",
+    "text": "Relação do K-Rem com a Atividade da argila"
+  },
+  {
     "objectID": "apre.html#relação-do-k-rem-com-ph-e-k-disponível",
     "href": "apre.html#relação-do-k-rem-com-ph-e-k-disponível",
     "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
@@ -130,7 +151,28 @@
     "href": "apre.html#considerações",
     "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
     "section": "Considerações",
-    "text": "Considerações\n\nA mineralogia do solo está relacionada com a dinâmica adsortiva e dessortiva de K.\nO K remanescente apresentou ampla variação entre as amostras, devido a mineralogia dominante da fração argila e a textura de cada solo.\nComo por óbvio… a mineralogia 2:1 é a responsável pela maior adsorção.\n\nO que é mais importante: Adsorção ou dessorção de K?"
+    "text": "Considerações\n\n\nA mineralogia do solo está relacionada com a dinâmica adsortiva e dessortiva de K.\nComo por óbvio… a mineralogia 2:1 é a responsável pela maior adsorção.\nO K remanescente apresentou ampla variação entre as amostras, devido a mineralogia dominante da fração argila e a textura de cada solo.\nO que é mais importante: Adsorção ou dessorção de K?\nA grande limitação do estudo está na quantidade de solos com minerais 2:1 e no viés de uso do solo!"
+  },
+  {
+    "objectID": "apre.html#odss---2",
+    "href": "apre.html#odss---2",
+    "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
+    "section": "ODSs - 2",
+    "text": "ODSs - 2\n\n\n\n  \nÉ um dos nutrientes fundamentais para o funcionamento homeostático do corpo humano (HE; MACGREGOR, 2008). Nas últimas décadas se observou uma redução no consumo do elemento em diversas partes do mundo (BOLTON et al., 2019; DONFRANCESCO et al., 2021; IDRISSI et al., 2023; OKUDA et al., 2020). Segundo Reddin et al. (2023) ao avaliar o consumo de K em 52 países observou que apenas 14% da população faz o consumo de quantidade recomendada."
+  },
+  {
+    "objectID": "apre.html#odss---12",
+    "href": "apre.html#odss---12",
+    "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
+    "section": "ODSs - 12",
+    "text": "ODSs - 12\n\n\n\n  \nDo ponto de vista agrícola, a eficiência da adubação potássica em nível mundial não passa de 19% em culturas de cereais (DHILLON et al., 2019), enquanto no Brasil se aproxima de 66% (SIPERT et al.,2020). Além disso, segundo Rawashdeh (2020), o declínio das reservas deve começar por volta de 2057."
+  },
+  {
+    "objectID": "apre.html#odss---13",
+    "href": "apre.html#odss---13",
+    "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
+    "section": "ODSs - 13",
+    "text": "ODSs - 13\n\n\n\n  \nO sistema alimentar global contribui com aproximadamente 21–37% das emissões anuais de gases de efeito estufa (MBOW et al., 2019). A maior parte do CO₂ emitido provém do uso excessivo de fertilizantes (LAWRENCE et al., 2021). No entanto, a adoção de novas tecnologias e métodos agrícolas tem grande potencial para reduzir essas emissões (NSABIYEZE, et al., 2024)."
   },
   {
     "objectID": "apre.html#agradecimentos",
@@ -144,13 +186,6 @@
     "href": "apre.html#section",
     "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
     "section": "",
-    "text": "Obrigado pela atenção!"
-  },
-  {
-    "objectID": "apre.html#informação-de-contato",
-    "href": "apre.html#informação-de-contato",
-    "title": "Efeito da mineralogia no teor de potássio remanescente em solos tropicais e subtropicais",
-    "section": "Informação de contato",
-    "text": "Informação de contato\n\n\n\n  \nEmail: gustavofrosi@hotmail.com\nSite: gustavofrosi.com.br"
+    "text": "Obrigado pela atenção!\n\n\n\n\n\n\n\n\n \nApresentação:\n\n\n\n\n\n\n\n\n\n\n     \n FGu5tav0\n gugafrosi\n gustavofrosi@hotmail.com\n gustavofrosi.com.br"
   }
 ]
